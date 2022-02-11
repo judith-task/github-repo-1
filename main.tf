@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 module "aft" {
-  source = "github.com/aws-ia/terraform-aws-control_tower_account_factory"
+  source = "https://github.com/judith-task/github-repo-1.git"
   # Required Vars
   ct_management_account_id    = "660479874226"
   log_archive_account_id      = "865548136817"
